@@ -1,4 +1,4 @@
-# dsh-plugin-steel-skin
+# dsh-theme-demo
 
 冷调深蓝皮肤 —— 深色 token + 背景图 + 组件对比度修复。
 
