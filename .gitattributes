@@ -1,0 +1,11 @@
+# Normalize line endings so a clone on another platform does not see the whole
+# tree as modified. Without this, Git rewrites LF to CRLF on Windows checkouts
+# and the difference shows up as spurious diffs.
+* text=auto eol=lf
+
+# Binary assets must never be line-ending converted: doing so corrupts them.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.gif binary

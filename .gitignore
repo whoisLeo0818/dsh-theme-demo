@@ -1,0 +1,21 @@
+# pnpm/npm install output — this package has no build step and no runtime deps,
+# so node_modules should never be part of a commit.
+node_modules/
+
+# The plugin is consumed as source: lib/ is hand-written, not generated, so it
+# is tracked. Only genuine build artifacts are excluded.
+*.tsbuildinfo
+dist/
+
+# Editor and OS noise
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
