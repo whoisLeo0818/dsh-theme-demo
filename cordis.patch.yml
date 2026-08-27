@@ -1,9 +1,9 @@
-# steel-skin bundle: contribute the host asset route.
+# dsh-theme-demo bundle: contribute the host asset route.
 #
 # This is what makes the package a profile layer rather than a plain dependency.
 # The browser half is not listed here: dsh.client in package.json is what the
 # module loader reads, and the client row is composed into the browser tree
 # automatically once this bundle layer exists.
 - insert:
-    - id: steel-skin
-      name: '@dsh-external/dsh-plugin-steel-skin'
+    - id: theme-demo
+      name: '@dsh-external/dsh-theme-demo'

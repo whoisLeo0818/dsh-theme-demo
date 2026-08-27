@@ -1,6 +1,6 @@
 {
-  "name": "@dsh-external/dsh-plugin-steel-skin",
-  "description": "Cool slate-blue dark skin with a workspace background image, plus contrast repairs for the light-filled components the theme tokens cannot reach",
+  "name": "@dsh-external/dsh-theme-demo",
+  "description": "A worked example of theming the dsh Web UI: overrides the thirteen --dsw-alias-* tokens, serves its own background image, and repairs the light-filled components the token layer cannot reach",
   "version": "1.0.0",
   "private": true,
   "type": "module",

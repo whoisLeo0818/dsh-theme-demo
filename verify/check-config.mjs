@@ -1,4 +1,4 @@
-// Configuration and hazard checks for the steel skin stylesheet.
+// Configuration and hazard checks for the dsh-theme-demo stylesheet.
 //
 // Resolves client.js relative to this file, so it runs from a fresh clone
 // without a server and without any machine-specific path.
@@ -113,7 +113,7 @@ check('bubble colour limited to direct text child',
 if (css.includes('url(')) {
   console.log('\n--- background ---')
   check('veil is a gradient layer, not opacity', css.includes('linear-gradient(rgba('))
-  check('asset referenced by plugin route', css.includes('/steel-skin/assets/'))
+  check('asset referenced by plugin route', css.includes('/dsh-theme-demo/assets/'))
 }
 
 console.log('\n' + (fails === 0 ? 'ALL CHECKS PASSED' : fails + ' CHECK(S) FAILED'))
