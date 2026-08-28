@@ -7,7 +7,7 @@
 ## 装/卸
 
 ```powershell
-git clone https://github.com/liuruoxi1990/dsh-theme-demo.git
+git clone https://github.com/whoisLeo0818/dsh-theme-demo.git
 dsh plugin --profile web add <clone 下来的目录>
 ```
 
